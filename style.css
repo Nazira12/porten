@@ -1,0 +1,500 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main {
+    height: 100vh;
+
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0F0F0F;
+    height: 10vh;
+}
+
+header .container div>a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+header .container {
+    height: 100%;
+}
+
+header .container div {
+    width: 50%;
+}
+
+.centerToCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    height: 90vh;
+    background-image: url(./img/Rectangle\ 3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border {
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 2px solid white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+main>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 40%;
+    margin-top: 80px;
+}
+
+.season {
+    height: 150vh;
+}
+
+.top {
+    height: 50%;
+    display: flex;
+    color: white;
+}
+
+.bottom {
+    height: 50%;
+}
+
+.left {
+    width: 55%;
+    background-color: #0F0F0F;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clocks {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.clock {
+    width: 20%;
+}
+
+.clock div {
+    background-color: #191B1C;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 45%;
+    background-image: url(./img/Rectangle\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 120px;
+}
+
+.clock p {
+    margin-top: 10px;
+}
+
+.right h1,
+.right hr,
+.right button {
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bLeft {
+    width: 45%;
+    background-image: url(./img/Rectangle\ 9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bRight {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    background-color: #0F0F0F;
+    padding: 0 10%;
+    color: white;
+    float: right;
+}
+
+.new {
+    height: 110vh;
+    background-color: #0F0F0F;
+    color: white;
+    padding-top: 2%;
+}
+
+.new .clock {
+    width: 23%;
+    justify-content: space-between;
+}
+
+.new .clock div {
+    height: 200px;
+}
+
+.new .clocks {
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.new h1 {
+    margin-bottom: 4%;
+}
+
+.new .clock img {
+    height: 80%;
+}
+
+.season,
+.new {
+    font-family: 'Playfair Display', serif;
+}
+
+.season h1,
+.new h1,
+.brands h1,
+.container h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.new .container,
+.brands .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands {
+    height: 30vh;
+    background-color: #161515;
+}
+
+.brands .container {
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.brands .clock img {
+    width: 90%;
+}
+
+footer {
+    background-image: url(./img/Rectangle\ 15.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .clocks {
+    justify-content: space-between;
+    height: 60%;
+}
+
+footer .clock {
+    width: 30%;
+}
+
+footer .clock div {
+    background: none;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .clock div a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: black;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+}
+
+footer h2 {
+    font-family: 'Playfair Display' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+input[type="text"] {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.4);
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    width: 40%;
+    height: 40px;
+    background: #0F0F0F;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: none;
+}
+
+input::placeholder {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+footer .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menuBurger {
+    height: 40%;
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .menuBurger {
+        display: block;
+    }
+
+    header .container .centerToCenter {
+        display: none;
+    }
+
+    .border {
+        width: 60%;
+        height: 40%;
+    }
+
+    main>p {
+        font-size: 14px;
+        width: 90%;
+        margin-top: 15%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .season {
+        height: fit-content;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .clocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clock {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .left h1,
+    .left hr {
+        margin: 5% 0;
+    }
+
+    .right {
+        padding-bottom: 0;
+        height: 30vh;
+        justify-content: center;
+    }
+
+    .bRight {
+        width: 100%;
+        text-align: center;
+        height: 60vh;
+    }
+
+    .bLeft {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .bottom {
+        flex-direction: column-reverse;
+    }
+
+    .new {
+        height: fit-content;
+    }
+
+    .new .container .clocks {
+        flex-direction: row;
+    }
+
+    .new .clocks {
+        flex-wrap: wrap;
+    }
+
+    .new .clock {
+        width: 40%;
+    }
+
+    .new .clock div {
+        height: 200px;
+    }
+
+    .brands {
+        height: fit-content;
+        padding-top: 30px;
+    }
+
+    .brands .clocks {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .brands .clock {
+        width: 50%;
+    }
+
+    footer {
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .clock {
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    footer .clock div {
+        background: none;
+        height: 50%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .clock div a {
+        margin: 5px 5px;
+    }
+
+    input {
+        margin-top: 10px;
+    }
+
+    section h1 {
+        font-size: 1, 5em !important;
+    }
+
+}
+
+@media (max-width:768px) {
+    
+}
